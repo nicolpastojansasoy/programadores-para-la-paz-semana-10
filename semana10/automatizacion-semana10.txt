@@ -1,0 +1,11 @@
+DISEÑO DEL FLUJO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+1. ¿Qué evento activa el flujo?
+El evento que activa el flujo es la creación o registro de un nuevo reporte ciudadano en el sistema. n8n detecta esta acción mediante un nodo de Webhook o un activador de base de datos.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviaría un mensaje claro y genérico al grupo cerrado de coordinadores:
+"¡Atención Equipo! Se ha registrado una nueva alerta comunitaria en la plataforma. Por favor, ingresen al panel administrativo interno para revisar los detalles y asignarle seguimiento. Juntos cuidamos nuestro territorio."
+
+3. ¿Qué información no debería enviarse por seguridad?
+Por estrictas razones de seguridad y privacidad, bajo ninguna circunstancia se deben enviar datos sensibles como: nombres completos de los afectados, números de documentos de identidad, direcciones exactas de viviendas, números telefónicos, contraseñas, ni detalles específicos que puedan poner en riesgo la integridad física o digital de los miembros de la comunidad.

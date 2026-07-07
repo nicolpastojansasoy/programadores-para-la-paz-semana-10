@@ -1,0 +1,11 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+Haría primero la Historia 1 (Registro de incidencia comunitaria anónima) y la Historia 2 (Alerta automatizada en Telegram para el coordinador).
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque constituyen el núcleo funcional del sistema. Sin la capacidad de registrar incidencias no existiría información con la cual trabajar, y sin la alerta inmediata, el coordinador no sabría cuándo actuar. Estas dos tareas permiten tener un producto mínimo viable para empezar a ayudar a la comunidad.
+
+3. ¿Qué significa para ti que una tarea esté "terminada"? (Definición de Terminado):
+Para mí, significa que la funcionalidad cumple con los objetivos del usuario y es completamente segura. Mis 3 criterios de aceptación son:
+- El código funciona correctamente en el entorno de desarrollo sin generar errores.
+- Fue probada localmente simulando el flujo completo de la comunidad.
+- El código quedó limpio, documentado y registrado con éxito en Git/GitHub.
